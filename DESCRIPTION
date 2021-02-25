@@ -1,0 +1,35 @@
+Package: okeanos.quantmod.interface
+Type: Package
+Title: Set of wrappers around the mighy quantmod packge that adapt its functionalities
+    for more regular market screening based on yahoo data.
+Version: 0.0.1
+Author: Artur Wegrzyn
+Maintainer: Artur Wegrzyn <awegrzyn17@gmail.com>
+Description: This package contains a set of classes and functions that serve the 
+    purpose of analysing selected time series (fetched chiefly via quantmod) and checking
+    them for the occurrences of trade signals. Additionally, a customized Twitter
+    communication protocol is provided so that the signals check results can be 
+    published there.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table,
+    dplyr,
+    ggplot2,
+    httr,
+    httpuv,
+    jsonlite,
+    lubridate,
+    magrittr,
+    R6,
+    Rcpp,
+    progress,
+    quantmod
+    rtweet,
+    rvest,
+    tibble,
+    TTR,
+    xml2,
+    xts,
+    zoo
